@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-    registry = "arigelakalyan/Docker-Jenkins-Project1"
+    registry = "karigela/docker_jenkins"
 
     registryCredential = 'docker-creds'
 
