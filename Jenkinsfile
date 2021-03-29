@@ -14,16 +14,6 @@ pipeline {
 
   stages {
 
-    stage('Cloning Git') {
-
-      steps {
-
-        git 'https://github.com/arigelakalyan/Docker-Jenkins-Project1.git'
-
-      }
-
-    }
-
     stage('Building image') {
 
       steps{
